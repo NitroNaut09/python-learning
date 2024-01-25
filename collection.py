@@ -42,3 +42,23 @@ course.replace('Python', 'DJ')
 
 print("Python" in course)
 #This will return a boolean whether there is string called "Python" in "course" var.
+
+
+#   Types of var functions
+ 
+ var.upper()
+ var.lower()
+ var.title()
+ var.find()
+ var.replace()
+ "..." in var 
+
+ #  Arithmetic Operations 
+
+print(10+3)   #Addition
+print(10-3)   #Subtraction
+print(10*3)   #Multiplication
+print(10/3)   #Division, returns quotient in integer from
+print(10**3)  #Exponentiation
+print(10%3)   #
+print(10//3)    
