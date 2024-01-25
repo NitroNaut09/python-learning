@@ -39,3 +39,6 @@ print(len(course))
 
 course.replace('Python', 'DJ')
 #This will replace the string "Python" with "DJ".
+
+print("Python" in course)
+#This will return a boolean whether there is string called "Python" in "course" var.
