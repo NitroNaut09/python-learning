@@ -13,32 +13,29 @@ print(f"Hello, {name}!")
 
 # Type conversion:
 
-# Prompt the user to enter their name
 name = input("Please enter your name: ")
-# Prompt the user to enter their birth year
 birth_year = (input("Now your birth year please: "))
-# Calculate the age by subtracting the birth year from the current year
 age = 2023 - int(birth_year)
-# Print a message with the entered name and calculated age
 print(f"{name}, you are {age} years old")
 
-# Define a string variable
+           
 course = "Python for beginners"
-# Print the character at index 1 of the string
-print(course[1])
-# Print a substring of the string from index 0 to 2 (exclusive)
-print(course[0:3])
-
-# Define a string variable
-course = "Python for beginners"
-# Create a copy of the string
+print(course[1])                                                # Print a substring of the string from index 0 to 2 (exclusive)
+print(course[0:3])                                              # Define a string variable
+course = "Python for beginners"                                 # Create a copy of the string
 another = course[:]
-
 
 first = 'John'
 second = 'Abrams'
-
 message = first + '[' + last + '] is a coder'
 print(message)
 message = (f"{first}{second} is a coder")
 
+print(course.find('Beginners'))
+#This will return the index from where the string "Beginners" starts from. Note that it is case sensitive.
+
+print(len(course)) 
+#Prints the character length of the variable
+
+course.replace('Python', 'DJ')
+#This will replace the string "Python" with "DJ".
