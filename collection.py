@@ -58,7 +58,7 @@ print("Python" in course)
 print(10+3)   #Addition
 print(10-3)   #Subtraction
 print(10*3)   #Multiplication
-print(10/3)   #Division, returns quotient in integer from
+print(10/3)   #Division
 print(10**3)  #Exponentiation
-print(10%3)   #
-print(10//3)    
+print(10%3)   #Shows the remainder after performing dvision.
+print(10//3)  #Floor division, returns integer value.
