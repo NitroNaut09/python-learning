@@ -20,9 +20,9 @@ print(f"{name}, you are {age} years old")
 
            
 course = "Python for beginners"
-print(course[1])                                                # Print a substring of the string from index 0 to 2 (exclusive)
-print(course[0:3])                                              # Define a string variable
-course = "Python for beginners"                                 # Create a copy of the string
+print(course[1])                                           # Print a substring of the string from index 0 to 2 (exclusive)
+print(course[0:3])                                         # Define a string variable
+course = "Python for beginners"                            # Create a copy of the string
 another = course[:]
 
 first = 'John'
@@ -47,10 +47,10 @@ print("Python" in course)
 #   Types of var functions
  
  var.upper()
- var.lower()
+ var.lower()                                                                            
  var.title()
  var.find()
- var.replace()
+ var.replace()                                                                                                                      
  "..." in var 
 
  #  Arithmetic Operations 
@@ -96,5 +96,34 @@ in, not in, is, is not, <, <=, >, >=, !=, == (Comparisons, including membership 
 not x (Boolean NOT)
 and (Boolean AND)
 or (Boolean OR)
+
+# Math Functions
+abs(x): Returns the absolute value of x.
+pow(x, y): Returns x raised to the power y.
+sqrt(x): Returns the square root of x.
+exp(x): Returns the exponential of x (e^x).
+log(x): Returns the natural logarithm of x.
+log10(x): Returns the base-10 logarithm of x.
+sin(x): Returns the sine of x (x is in radians).
+cos(x): Returns the cosine of x (x is in radians).
+tan(x): Returns the tangent of x (x is in radians).
+degrees(x): Converts angle x from radians to degrees.
+radians(x): Converts angle x from degrees to radians.
+
+#Math Module functions
+math.ceil(x): Returns the smallest integer greater than or equal to x.
+math.floor(x): Returns the largest integer less than or equal to x.
+math.fabs(x): Returns the absolute value of x.
+math.factorial(x): Returns the factorial of x.
+math.exp(x): Returns the exponential of x (e^x).
+math.log(x, base): Returns the natural logarithm of x to the given base.
+math.sqrt(x): Returns the square root of x.
+math.sin(x): Returns the sine of x (x is in radians).
+math.cos(x): Returns the cosine of x (x is in radians).
+math.tan(x): Returns the tangent of x (x is in radians).
+math.degrees(x): Converts angle x from radians to degrees.
+math.radians(x): Converts angle x from degrees to radians.
+math.pi: A constant representing the mathematical constant π (pi).
+math.e: A constant representing the mathematical constant e.
 
 
