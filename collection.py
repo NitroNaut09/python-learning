@@ -1,3 +1,4 @@
+import math
 # Basic print command, and input
 
 # Prompt the user to enter their name
