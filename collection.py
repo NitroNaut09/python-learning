@@ -1,3 +1,4 @@
+import math
 # Basic print command, and input
 
 # Prompt the user to enter their name
@@ -126,4 +127,52 @@ math.radians(x): Converts angle x from degrees to radians.
 math.pi: A constant representing the mathematical constant π (pi).
 math.e: A constant representing the mathematical constant e.
 
+# For Loops
+for item in range(5,10, 2) 
+# The 2 at the end indicates how much to skip
 
+# Nested Loops
+
+for x in range(5):
+    print(x)
+
+for x in range(5):
+    for y in range(5):
+        print(x, y)
+
+#Lists
+names = ['John', 'Bob', 'Mosh', 'Deeraj' ]
+
+#Functions with the list:
+
+names.append('Sarah')
+names.insert(0, 'Jack')
+names.remove('Mosh')
+names.sort()
+names.reverse()
+print(names)
+print(names[3])
+print(names[2:])
+print(names[:3])
+
+# Program which prints the highest number
+
+numbers = [3, 1, 5, 6, 9, 11,92229893864000264520 ]
+numbers.sort
+print(numbers[-1])
+
+
+
+# 2D Lists
+
+matrix = [
+
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+
+]
+
+for row in matrix:   # How nested loops can be used in 2D lists
+    for item in row:
+        print(item)
