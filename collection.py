@@ -126,4 +126,30 @@ math.radians(x): Converts angle x from degrees to radians.
 math.pi: A constant representing the mathematical constant π (pi).
 math.e: A constant representing the mathematical constant e.
 
+# For Loops
+for item in range(5,10, 2) 
+# The 2 at the end indicates how much to skip
 
+# Nested Loops
+
+for x in range(5):
+    print(x)
+
+for x in range(5):
+    for y in range(5):
+        print(x, y)
+
+#Lists
+names = ['John', 'Bob', 'Mosh', 'Deeraj' ]
+
+#Functions with the list:
+
+names.append('Sarah')
+names.insert(0, 'Jack')
+names.remove('Mosh')
+names.sort()
+names.reverse()
+print(names)
+print(names[2:])
+print(names[:3])
+print 
