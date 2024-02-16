@@ -150,6 +150,7 @@ names.insert(0, 'Jack')
 names.remove('Mosh')
 names.sort()
 names.reverse()
+names.pop()
 print(names)
 print(names[3])
 print(names[2:])
@@ -176,3 +177,27 @@ matrix = [
 for row in matrix:   # How nested loops can be used in 2D lists
     for item in row:
         print(item)
+
+
+# List methods
+
+numbers = [5, 2, 1, 7, 4]
+numbers.append(20)
+numbers.inset(2, 65)
+numbers.remove(5)
+numbers.clear()
+numbers.pop()
+numbers.sort()
+numbers.reverse()
+numbers2 = numbers.copy()
+print(numbers.count(5))
+
+
+# Duplication remover program
+
+ig = [2,2,2,2, 3,3,3,54,6, 3,6 4,645 6,46 45,665 4]
+unique = []
+for num in ig:
+    if num not in unique:
+        unique.append(number)
+print(uniques)
