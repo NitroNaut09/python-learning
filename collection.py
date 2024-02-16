@@ -201,3 +201,17 @@ for num in ig:
     if num not in unique:
         unique.append(number)
 print(uniques)
+
+
+# Tuples
+
+numbers = (1, 2, 3)
+
+# Tuple Methods
+numbers[0]
+numbers.count()
+numbers.index()
+
+coordinates = (23.54.,45,56,)
+x, y, z = coordinates
+
