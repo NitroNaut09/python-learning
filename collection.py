@@ -151,6 +151,28 @@ names.remove('Mosh')
 names.sort()
 names.reverse()
 print(names)
+print(names[3])
 print(names[2:])
 print(names[:3])
-print 
+
+# Program which prints the highest number
+
+numbers = [3, 1, 5, 6, 9, 11,92229893864000264520 ]
+numbers.sort
+print(numbers[-1])
+
+
+
+# 2D Lists
+
+matrix = [
+
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+
+]
+
+for row in matrix:   # How nested loops can be used in 2D lists
+    for item in row:
+        print(item)
