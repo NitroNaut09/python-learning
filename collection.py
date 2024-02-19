@@ -213,5 +213,30 @@ numbers.count()
 numbers.index()
 
 coordinates = (23.54.,45,56,)
+
+#Below code is:
+x = coordinates[0]
+y = coordinates[1]
+z = coordinates[2]
+
+#Same as this code:
 x, y, z = coordinates
+#This is called unpacking
+
+#Dictionaries:
+
+customer = {} #This is called an empty dict
+customer = {
+    "name": "John Smith", #Note that you CANNOT have duplicate value
+    "age": 30,
+    "is_verified": True
+}                       
+#Access dict items:
+customer["name"]
+#Use .get method instead so the program doesn't yell at us.
+customer.get("name")
+#To assign a value, use this:
+customer["birthdate"] = "Jan 1 1980"`
+#To make a new value-key pair:
+customer["birthdate"] = "Jan 1 1980"
 
