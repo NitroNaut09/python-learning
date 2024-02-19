@@ -242,19 +242,26 @@ customer["birthdate"] = "Jan 1 1980"`
 #Programs that uses dict to translate numbers into their
 #respective words
 
+# Prompt the user to enter a phone number
 phone = input("Phone: ")
-numdict = {"1": "One",
-           "2": "Two",
-           "3": "Three",
-           "4": "Four",
-           "5": "Five",
-           "6": "Six",
-           "7": "Seven",
-           "8": "Eight",
-           "9": "Nine",
-           "10": "Ten",
-           }
-output = ""
-    for ch in phone:
-    output += numdict.get(ch, "!") + " "
-    print(output)
+
+# Define a dictionary mapping each digit to its corresponding word
+numdict = {
+    "1": "One",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four"
+}
+
+# Initialize an empty string
+ju = ""
+
+# Iterate over each character in the phone number
+for ch in phone:
+    # Retrieve the corresponding word from the dictionary, or use "!" as a default value
+    word = numdict.get(ch, "!")
+    # Concatenate the word to the string
+    ju += word + " "
+
+# Print the converted phone number
+print(ju)
