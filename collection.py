@@ -238,5 +238,23 @@ customer.get("name")
 #To assign a value, use this:
 customer["birthdate"] = "Jan 1 1980"`
 #To make a new value-key pair:
-customer["birthdate"] = "Jan 1 1980"
 
+#Programs that uses dict to translate numbers into their
+#respective words
+
+phone = input("Phone: ")
+numdict = {"1": "One",
+           "2": "Two",
+           "3": "Three",
+           "4": "Four",
+           "5": "Five",
+           "6": "Six",
+           "7": "Seven",
+           "8": "Eight",
+           "9": "Nine",
+           "10": "Ten",
+           }
+output = ""
+    for ch in phone:
+    output += numdict.get(ch, "!") + " "
+    print(output)
