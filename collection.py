@@ -265,3 +265,30 @@ for word in words:
     output += emoji.get(word, word) + " "
 print(output)
 
+#Defining functions:
+
+#Why do we use functions?
+
+#We use functions in Python for several reasons. Firstly, functions allow you to write a block of code and use it multiple, which saves time and makes your code easier to maintain. Functions also make your code easier read and understand by providing descriptive names for blocks of code. Additionally, functions can accept arguments, which are values that can be passed to the function to customize its behavior. Functions can also return values, which can be assigned to variables or used in expressions.
+#By using functions, you can make your code more modular, reusable, and easier to debug. Functions can also help you avoid duplicating code, which can make your code more efficient and easier to maintain.
+
+def greet_user():
+    print("Hi There")
+    print("Welcome abroad")
+
+#Also keep in mind that order matters whenh defining fdunctions. So if you define a function only after calling it, it will return an error.
+
+#Passing info through functions
+
+def greet_user_2(namez):
+    print(f"Hi there, {namez}")
+    print("welcome abroad")
+
+greet_user_2(input("What's your name? "))
+
+#Arguments in functions are referred to as positional areguments
+
+#Note that parameters and arguments AREN'T the same. Parameters are like "holes" in the code, that act as the placeholder for values. While arguments are itself the thing that supply the information.
+
+#Now, we'll look at keyword arguments. These are arguments which explicitly mention which parameter they refer to, instead of relying on the order of parameters.
+
