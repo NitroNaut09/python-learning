@@ -241,27 +241,27 @@ customer["birthdate"] = "Jan 1 1980"`
 
 #Programs that uses dict to translate numbers into their
 #respective words
-
-# Prompt the user to enter a phone number
 phone = input("Phone: ")
-
-# Define a dictionary mapping each digit to its corresponding word
-numdict = {
+digits_mapping = {
     "1": "One",
     "2": "Two",
     "3": "Three",
     "4": "Four"
-}
-
-# Initialize an empty string
-ju = ""
-
-# Iterate over each character in the phone number
+    }
+output = ""
 for ch in phone:
-    # Retrieve the corresponding word from the dictionary, or use "!" as a default value
-    word = numdict.get(ch, "!")
-    # Concatenate the word to the string
-    ju += word + " "
+    output += digits_mapping.get(ch, "!") + " "
+print(output)
 
-# Print the converted phone number
-print(ju)
+#Emoji Converter Program:
+emoji = {
+    ":)": "😀",
+    ":(": "😔"
+}
+message = input(">")
+words = message.split(" ")
+output = ""
+for word in words:
+    output += emoji.get(word, word) + " "
+print(output)
+
