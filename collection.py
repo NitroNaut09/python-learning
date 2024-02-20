@@ -329,3 +329,27 @@ print(emoji_converter(message))
 age = int(input('Age: '))
 print(age)
 
+#Now, since in this code errors could occur, we will use the try: command.
+
+try:
+    age = int(input('Age: '))
+    income = 20000
+    risk = income/age
+    print(age)
+except ZeroDivisionError:
+    print("Age cannot be 0.")
+except ValueError:
+    print("Invalid value")
+
+#Classes:
+#What we have learnt so far:
+#Numbers, strings, booleans, lists, dicts
+
+#Points:
+#Classes are used to define objects
+#Objects are instances of a class
+#Objects have attributes and methods
+
+class Point #Notice that the first word is capitalized. This is called the pascal naming convention.
+
+
