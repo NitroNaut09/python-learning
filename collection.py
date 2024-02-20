@@ -377,6 +377,67 @@ class Point:
     def draw(self):
         print("draw")
         
+class Mammal:
+    # Define a method named walk for the Mammal class
+    def walk(self):
+        print("walk")
+
+# Define a class named Dog which inherits from the Mammal class
+class Dog(Mammal):
+    # The pass keyword is used as a placeholder for future code. 
+    # As the Dog class is inheriting from Mammal, it doesn't need any additional code at this time.
+    pass
+
+# Define a class named Cat which also inherits from the Mammal class
+class Cat(Mammal):
+    # Define a method named be_annoying for the Cat class
+    def be_annoying(self):
+        # This method is currently empty and needs to be implemented
+        pass
+
+# Create an instance of the Dog class
+dog1 = Dog()
+# Call the walk method on the dog1 instance. This method is inherited from the Mammal class.
+dog1.walk()
+
+   
+#Modules
+#Module is a file with some python code. Used t organize code into multiple files. Like sections in a super market. Each broekn file is called a module. As we write more functions and classes, we put them in their respective modules. Modules should contain all the related functions and classes.
+
+#To import modules, just write import "file" without the extension. Insetad of importing entire modules, we can just import specific functions from the module. Example:
+
+import converter
+print(converter.kg_to_lb(70))
+
+#Now, moving on to importing specific functions:
+
+import converter
+from converter import kg_to_lb
+kg_to_lb(70)
+
+#Take-aways; We use modules to better organize our code. Instead of writing all code in one file, we break it up into more files. Each file is called a module and it should contain all the reated functions and classes. Then we can import a module into another module, as written above.
+
+
+#Packages:
+
+# A package is a container for multiple modules
+
+#Generating random values
+
+import random
+
+mumbers = ['John', 'Jack', 'Grover']
+random.choice(mumbers)
+
+#Some libs
+
+from pathlib import Path 
+
+path = Path('emails')
+path.mkdir
+path.rmdir 
+
+#Thank you completing Mosh Hamedani's amazing 6 hour python tutorial. 
 
 
 
