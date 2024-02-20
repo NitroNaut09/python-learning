@@ -358,6 +358,27 @@ class Point:
 
 point1 = Point()
 point1.draw()
+point1.x = 10
+point1.y = 20
+print(point1.x)
+
+point2 = Point()
+print(point2)
+
+#Contrusctors: A constructor is a special method in a class that is automatically called when an instance of the class is created. It is used to initialize the object's state. In Python, the constructor method is denoted by __init__.
+
+class Point:
+    def __init__(self, x, y):
+
+
+    def move(self):
+        print("move")
+
+    def draw(self):
+        print("draw")
+        
+
+
 
 
 
