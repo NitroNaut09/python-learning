@@ -346,10 +346,20 @@ except ValueError:
 #Numbers, strings, booleans, lists, dicts
 
 #Points:
-#Classes are used to define objects
-#Objects are instances of a class
-#Objects have attributes and methods
+#Classes are used to define objects. Objects are instances of a class. Objects have attributes and methods
+#Notice that the first word is capitalized. This is called the pascal naming convention.
 
-class Point #Notice that the first word is capitalized. This is called the pascal naming convention.
+class Point:
+    def move(self):
+        print("move")
+    def draw(self):
+        print("draw")
+
+
+point1 = Point()
+point1.draw()
+
+
+
 
 
